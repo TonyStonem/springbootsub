@@ -30,9 +30,9 @@ public class SubApplication {
 
 /**
  先修改数据库配置，并建表，建表语法：
- CREATE DATABASE spring_study_db;
+ CREATE DATABASE spring_sub_db;
 
- USE spring_study_db;
+ USE spring_sub_db;
 
  CREATE TABLE T_USER (
  user_id VARCHAR (32) PRIMARY KEY,
@@ -44,7 +44,7 @@ public class SubApplication {
  );
 
  INSERT INTO T_USER(user_id, sex, `status`, user_name, create_time)
- VALUES('xiaotian', '男', '1001', '小天', NOW());
+ VALUES('JacksonWen', '男', '10001', 'xjw', NOW());
 
  建表后再启动，启动后打开：http://localhost:7001/swagger-ui.html
  就可以看到接口了，接口使用的是Swagger，关于Swagger：https://blog.csdn.net/qq_20698983/article/details/83830284

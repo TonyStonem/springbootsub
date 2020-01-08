@@ -40,7 +40,7 @@ public class Swagger2Config {
     private ApiInfo apiInfo() {
         // 标题、版本号、描述信息等信息
         return new ApiInfoBuilder()
-                .title("Spring Boot 学习")
+                .title("Spring Boot 分模块学习")
                 .description("学习到的知识若不能很好的形成文档，久而久之就忘了曾经是否有那么回事")
                 .termsOfServiceUrl("https://github.com/TonyStonem")
                 .version("1.0.0.0")
