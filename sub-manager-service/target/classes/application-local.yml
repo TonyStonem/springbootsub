@@ -15,7 +15,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver # 此处如果显示红色，去看下本项目的 pom.xml 中有没有引入包
     url: jdbc:mysql://127.0.0.1:3306/spring_sub_db?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
-    password: rootxjw
+    password: root@xjw
 
 # logback 配合 lombok 记录日志：https://blog.csdn.net/qq_20698983/article/details/83962002
 # 打印SQL，用于调试
