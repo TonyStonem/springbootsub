@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/springbootsub.iml" filepath="$PROJECT_DIR$/.idea/springbootsub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sub-manager/sub-manager.iml" filepath="$PROJECT_DIR$/sub-manager/sub-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sub-manager-base/sub-manager-base.iml" filepath="$PROJECT_DIR$/sub-manager-base/sub-manager-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sub-manager-client/sub-manager-client.iml" filepath="$PROJECT_DIR$/sub-manager-client/sub-manager-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sub-manager-core/sub-manager-core.iml" filepath="$PROJECT_DIR$/sub-manager-core/sub-manager-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sub-manager-service/sub-manager-service.iml" filepath="$PROJECT_DIR$/sub-manager-service/sub-manager-service.iml" />
+    </modules>
+  </component>
+</project>

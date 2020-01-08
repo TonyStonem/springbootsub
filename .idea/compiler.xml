@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sub-manager-base" />
+        <module name="sub-manager-client" />
+        <module name="sub-manager-core" />
+        <module name="sub-manager-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sub-manager" target="1.8" />
+      <module name="sub-manager-base" target="1.8" />
+      <module name="sub-manager-client" target="1.8" />
+      <module name="sub-manager-core" target="1.8" />
+      <module name="sub-manager-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
