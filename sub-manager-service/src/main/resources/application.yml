@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: local  # 指定运行环境，加载 application-local.yml的配置
+
+# 项目从开始到结束配置顺序为：local -> dev -> sit -> uat -> prod
+
+# 除了在此yml中指定启动环境外，一般应用部署时都是用命令指定启动环境
+# 介绍三种方式
+
+# 一、
+# 适用于 jenkins 构建
+# 命令：clean install -Dmaven.test.skip=true  -P dev
+# 其中：-Dmaven.test.skip 表示过滤掉所有测试用例(一般公司会要求写单元测试，不知道的去百度了解下)
+# -P 后面的 dev 表示项目启动时加载 application-dev.yml 的配置
+
+# 二、
+# 适用于脚本部分
+# 命令：java -jar bonus-manager.jar --spring.profiles.active=prod
+# 其中：prod 表示项目启动时加载 application-prod.yml 的配置
+
+# 三、
+# 适用于本地灵活切换环境，如果有专门的工具兼容这个也是可以使用的
+# 还有一种跟这个类型，半自动加载配置文件的，叫Profile
+# 具体可以参考下这篇文章：https://www.jianshu.com/p/07bd7720b0c4
+
+# 忠告：作为新手，先使用固定值，学会原理后再慢慢的切换

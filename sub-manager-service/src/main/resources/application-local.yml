@@ -1,0 +1,25 @@
+# 这里面保存本地开发环境的配置
+# ====================================================================================================
+
+# 启动端口
+server:
+  port: 7001
+
+# 指定 *.xml 的扫描路径，classpath 定位到 ./resources 目录
+mybatis:
+  mapper-locations: classpath:mybatis/mybatis/*.xml
+
+# 数据库(我配个简单的JDBC，不过Spring boot 默认支持 dbcp 连接池)
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver # 此处如果显示红色，去看下本项目的 pom.xml 中有没有引入包
+    url: jdbc:mysql://172.16.10.2:3306/spring_study_db?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: messageuser
+    password: Message@123
+
+# logback 配合 lombok 记录日志：https://blog.csdn.net/qq_20698983/article/details/83962002
+# 打印SQL，用于调试
+logging:
+  level:
+    cn.xjw.sub.base.dao: debug  # 这种操作如果没事的话，不要在生产上做(但是查日志是真的方便)
+  config: classpath:logback.xml # Spring启动会自动加载 logback.xml 日志配置文件，如果你的文件名与之不同，应当指定成你自己的文件名
