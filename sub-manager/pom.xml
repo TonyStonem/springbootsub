@@ -23,7 +23,7 @@
         <java.version>1.8</java.version>
 
         <!-- 自定义 -->
-        <springboot.version>2.2.2.RELEASE</springboot.version>
+        <springboot.version>2.5.12</springboot.version>
         <springfox.swagger2.version>2.7.0</springfox.swagger2.version>
         <springfox.swagger.ui>2.7.0</springfox.swagger.ui>
         <pagehelper.version>1.2.3</pagehelper.version>
