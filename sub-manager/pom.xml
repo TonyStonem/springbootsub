@@ -30,7 +30,7 @@
         <lombok.version>1.16.18</lombok.version>
         <springboot.mybaits.version>1.3.1</springboot.mybaits.version>
         <mybatis.version>3.4.5</mybatis.version>
-        <mysql.version>5.1.44</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <fileupload.version>1.2.1</fileupload.version>
         <springboot.redis.version>1.4.7.RELEASE</springboot.redis.version>
         <mapper.springboot.version>1.2.4</mapper.springboot.version>
